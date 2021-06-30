@@ -128,9 +128,3 @@ Route::post('users/update/{id}', 'UserController@update')->name('userUpdate');
 Route::post('users/search', 'UserController@search')->name('userSearch');
 
 
-
-Route::get('/report', 'ReportController@index');
-
-Route::post('report/search', 'ReportController@search')->name('reportSearch');
-
-Route::get('report/results/excel', 'ReportController@excel')->name('excel');
